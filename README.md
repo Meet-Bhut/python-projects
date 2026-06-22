@@ -1,6 +1,12 @@
 # Python Projects
 
-A collection of Python projects built while learning Python programming fundamentals.
+A collection of Python projects built while learning Python programming fundamentals, problem-solving, file handling, and data visualization.
+
+## About
+
+I am a B.Tech CSE (AI & ML) student learning Python through hands-on projects. This repository contains beginner to intermediate Python projects developed to strengthen programming concepts and practical problem-solving skills.
+
+---
 
 ## Projects
 
@@ -49,6 +55,18 @@ A collection of Python projects built while learning Python programming fundamen
 * Delete passwords
 * File handling and persistent storage
 
+### 9. Expense Tracker
+
+* Add and manage expenses
+* Search and delete expenses
+* Category-wise spending summary
+* Monthly expense analysis
+* Pie chart visualization
+* Monthly bar graph
+* File handling and data visualization
+
+---
+
 ## Skills Practiced
 
 * Python Fundamentals
@@ -58,9 +76,34 @@ A collection of Python projects built while learning Python programming fundamen
 * Dictionaries
 * Exception Handling
 * File Handling
+* Date and Time Handling
 * Menu Driven Programs
+* Data Visualization
 * Problem Solving
+* Git and GitHub
+
+---
+
+## Technologies Used
+
+* Python
+* Matplotlib
+* VS Code
+* Git
+* GitHub
+
+---
+
+## Future Projects
+
+* To-Do List Manager
+* Contact Book
+* Student Record System
+* Quiz Application
+* Flask Web Applications
+
+---
 
 ## Author
 
-Meet Bhut
+**Meet Bhut**
