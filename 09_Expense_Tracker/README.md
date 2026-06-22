@@ -129,4 +129,4 @@ python expense_tracker.py
 
 ## Author
 
-Created as a Python learning project to practice file handling, data processing, and data visualization.
+Meet Bhut
