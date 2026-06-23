@@ -1,12 +1,6 @@
 # Python Projects
 
-A collection of Python projects built while learning Python programming fundamentals, problem-solving, file handling, and data visualization.
-
-## About
-
-I am a B.Tech CSE (AI & ML) student learning Python through hands-on projects. This repository contains beginner to intermediate Python projects developed to strengthen programming concepts and practical problem-solving skills.
-
----
+A collection of Python projects built while learning Python programming fundamentals. These projects focus on problem-solving, logic building, file handling, data processing, and console application development.
 
 ## Projects
 
@@ -24,28 +18,30 @@ I am a B.Tech CSE (AI & ML) student learning Python through hands-on projects. T
 ### 3. Scientific Calculator
 
 * Basic arithmetic operations
+* Mathematical calculations
 * User input handling
 
 ### 4. Tic Tac Toe
 
-* Two-player game
+* Two-player gameplay
 * Board management
 * Winner detection
 
 ### 5. Password Generator
 
-* Random secure password generation
-* Custom password options
+* Random password generation
+* Custom password length
+* Secure password creation
 
 ### 6. Counter App
 
 * Increment and decrement operations
-* Menu-driven program
+* Menu-driven interface
 
 ### 7. Alarm Clock
 
 * Time handling using Python
-* Alarm notification system
+* Alarm functionality
 
 ### 8. Password Manager
 
@@ -53,56 +49,61 @@ I am a B.Tech CSE (AI & ML) student learning Python through hands-on projects. T
 * Search passwords
 * Edit passwords
 * Delete passwords
-* File handling and persistent storage
+* File handling
 
 ### 9. Expense Tracker
 
-* Add and manage expenses
-* Search and delete expenses
-* Category-wise spending summary
-* Monthly expense analysis
+* Add expenses
+* Search expenses
+* Delete expenses
+* Category-wise spending analysis
 * Pie chart visualization
-* Monthly bar graph
-* File handling and data visualization
+* Monthly expense graphs using Matplotlib
 
----
+### 10. Typing Speed Tester
+
+* Difficulty levels
+* Random sentence generation
+* WPM calculation
+* Accuracy calculation
+* Colored typing analysis
+* Real-time performance evaluation
 
 ## Skills Practiced
 
 * Python Fundamentals
 * Functions
 * Loops
-* Lists
-* Dictionaries
+* Conditional Statements
+* Lists and Dictionaries
 * Exception Handling
 * File Handling
-* Date and Time Handling
-* Menu Driven Programs
-* Data Visualization
+* String Manipulation
+* Modules and Packages
+* Data Processing
+* Object-Oriented Concepts
 * Problem Solving
-* Git and GitHub
+* Menu-Driven Programs
+* Data Visualization using Matplotlib
 
----
+## Libraries Used
 
-## Technologies Used
+* random
+* time
+* datetime
+* matplotlib
+* colorama
+* itertools
 
-* Python
-* Matplotlib
-* VS Code
-* Git
-* GitHub
+## Future Goals
 
----
-
-## Future Projects
-
-* To-Do List Manager
-* Contact Book
-* Student Record System
-* Quiz Application
 * Flask Web Applications
-
----
+* HTML, CSS, and JavaScript Integration
+* Database Projects
+* API Development
+* Data Analysis Projects
+* GUI Applications
+* Full-Stack Python Development
 
 ## Author
 
