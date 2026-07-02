@@ -4,9 +4,7 @@
 ![Projects](https://img.shields.io/badge/Projects-11-success)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-A collection of Python projects developed while learning Python programming. This repository documents my journey from beginner-level console applications to more structured, modular, and data-driven projects.
-
-Each project focuses on improving problem-solving skills, programming logic, file handling, data processing, and software development practices.
+A collection of Python projects built while learning Python programming. This repository showcases my journey from beginner-level console applications to advanced modular projects involving file handling, JSON storage, authentication, and data visualization.
 
 ---
 
@@ -14,10 +12,10 @@ Each project focuses on improving problem-solving skills, programming logic, fil
 
 - About
 - Projects
+- Featured Project
 - Skills Learned
 - Technologies Used
 - Repository Structure
-- How to Run
 - Future Goals
 - Author
 
@@ -25,74 +23,203 @@ Each project focuses on improving problem-solving skills, programming logic, fil
 
 # 📌 About
 
-This repository contains projects built while learning Python from scratch. Every project introduced new concepts and helped strengthen my understanding of programming fundamentals.
+Each project in this repository helped me strengthen different programming concepts including problem-solving, modular programming, file handling, authentication systems, data persistence, and visualization.
 
-The projects gradually increase in complexity—from simple console games to applications involving persistent data storage, modular programming, authentication, and data visualization.
+The projects are organized in chronological order based on my learning journey.
+
+---
+# 📊 Projects Overview
+
+| No. | Project | Difficulty | Status | Key Concepts |
+|:---:|---------|:----------:|:------:|--------------|
+| 01 | 🎯 Number Guessing Game | 🟢 Beginner | ✅ Completed | Random Numbers, Loops, Input Validation |
+| 02 | ✊ Rock Paper Scissors | 🟢 Beginner | ✅ Completed | Conditions, Random Module |
+| 03 | 🧮 Scientific Calculator | 🟡 Intermediate | ✅ Completed | Functions, Math Operations |
+| 04 | ❌⭕ Tic Tac Toe | 🟡 Intermediate | ✅ Completed | Lists, Game Logic |
+| 05 | 🔐 Password Generator | 🟢 Beginner | ✅ Completed | Random Module, Strings |
+| 06 | 🔢 Counter App | 🟢 Beginner | ✅ Completed | Variables, Loops |
+| 07 | ⏰ Alarm Clock | 🟡 Intermediate | ✅ Completed | Time Module, Datetime |
+| 08 | 🔑 Password Manager | 🟡 Intermediate | ✅ Completed | File Handling, Dictionaries |
+| 09 | 💰 Expense Tracker | 🔴 Advanced | ✅ Completed | File Handling, Matplotlib |
+| 10 | ⌨️ Typing Speed Tester | 🔴 Advanced | ✅ Completed | Time Module, String Processing |
+| ⭐ 11 | 🏦 Banking Management System | 🔴 Advanced | ✅ Completed | JSON, Authentication, Modular Programming |
 
 ---
 
 # 📂 Projects
 
-| No. | Project | Description |
-|----:|---------|-------------|
-| 01 | Number Guessing Game | Guess a randomly generated number with multiple difficulty levels. |
-| 02 | Rock Paper Scissors | Classic Rock-Paper-Scissors game against the computer. |
-| 03 | Scientific Calculator | Performs arithmetic and scientific calculations through a menu-driven interface. |
-| 04 | Tic Tac Toe | Two-player console implementation of Tic Tac Toe with winner detection. |
-| 05 | Password Generator | Generates strong random passwords with customizable length. |
-| 06 | Counter App | Menu-driven counter supporting increment and decrement operations. |
-| 07 | Alarm Clock | Console alarm clock using Python's time module. |
-| 08 | Password Manager | Stores, searches, edits, and deletes passwords using file handling. |
-| 09 | Expense Tracker | Tracks expenses with category analysis and graphical visualization using Matplotlib. |
-| 10 | Typing Speed Tester | Measures typing speed, accuracy, and Words Per Minute (WPM). |
-| 11 | Banking Management System ⭐ | Complete banking system featuring customer accounts, transactions, admin panel, authentication, JSON storage, and transaction history. |
+## 01. Number Guessing Game
+
+A console-based guessing game where players try to guess a randomly generated number.
+
+**Highlights**
+
+- Random number generation
+- Multiple difficulty levels
+- Input validation
+
+---
+
+## 02. Rock Paper Scissors
+
+Classic Rock-Paper-Scissors game played against the computer.
+
+**Highlights**
+
+- User vs Computer gameplay
+- Winner detection
+- Score calculation
+
+---
+
+## 03. Scientific Calculator
+
+A menu-driven calculator supporting various mathematical operations.
+
+**Highlights**
+
+- Arithmetic operations
+- Scientific calculations
+- Error handling
+
+---
+
+## 04. Tic Tac Toe
+
+Two-player implementation of the classic Tic Tac Toe game.
+
+**Highlights**
+
+- Dynamic board
+- Winner detection
+- Draw handling
+
+---
+
+## 05. Password Generator
+
+Generates secure random passwords.
+
+**Highlights**
+
+- Custom password length
+- Strong password generation
+- Randomized output
+
+---
+
+## 06. Counter App
+
+Simple menu-driven counter application.
+
+**Highlights**
+
+- Increment & decrement
+- Reset functionality
+- Simple interface
+
+---
+
+## 07. Alarm Clock
+
+Console-based alarm application.
+
+**Highlights**
+
+- Alarm scheduling
+- Real-time clock
+- Time handling
+
+---
+
+## 08. Password Manager
+
+Stores and manages passwords using file handling.
+
+**Highlights**
+
+- Add, edit & delete passwords
+- Search functionality
+- Persistent storage
+
+---
+
+## 09. Expense Tracker
+
+Expense management system with graphical analysis.
+
+**Highlights**
+
+- Expense tracking
+- Category analysis
+- Matplotlib charts
+
+---
+
+## 10. Typing Speed Tester
+
+Measures typing speed and typing accuracy.
+
+**Highlights**
+
+- WPM calculation
+- Accuracy calculation
+- Difficulty levels
 
 ---
 
 # ⭐ Featured Project
 
-## 🏦 Banking Management System
+## 11. Banking Management System
 
-The most comprehensive project in this repository.
+The most advanced project in this repository.
 
-### Highlights
+A complete console-based banking system built using Python with modular programming and persistent JSON storage.
 
-- Secure Login System
-- Customer & Admin Panels
-- Deposit / Withdraw / Transfer
+### Customer Features
+
+- Create Account
+- Secure Login
+- Deposit & Withdraw
+- Money Transfer
 - Transaction History
-- Account Locking
-- Admin Unlock
+- Change PIN
+- Delete Account
+
+### Admin Features
+
+- Admin Login
+- View All Accounts
+- Search Accounts
+- Unlock Accounts
+- Delete Accounts
 - Bank Statistics
-- JSON Data Storage
-- Modular Programming
-- Persistent Data
+
+### Security
+
+- 4-digit PIN Authentication
+- Account Locking after 3 failed attempts
+- Unique Account & Transaction IDs
+- Persistent JSON Data Storage
 
 ---
 
 # 🛠 Skills Learned
 
-Throughout these projects, I practiced and improved my understanding of:
-
 - Python Fundamentals
 - Functions
 - Loops
 - Conditional Statements
-- Lists
-- Dictionaries
+- Lists & Dictionaries
 - Nested Dictionaries
-- Exception Handling
 - File Handling
 - JSON Handling
-- String Manipulation
+- Exception Handling
 - Modular Programming
-- Authentication Systems
 - Data Persistence
-- Object-Oriented Programming Basics
-- Data Processing
+- Authentication Systems
+- Data Visualization
 - Problem Solving
-- Menu-Driven Applications
-- Code Reusability
 
 ---
 
@@ -103,9 +230,8 @@ Throughout these projects, I practiced and improved my understanding of:
 - Matplotlib
 - Colorama
 - Random
-- Datetime
 - Time
-- Itertools
+- Datetime
 
 ---
 
@@ -131,15 +257,6 @@ Python-Projects/
 
 ---
 
-
-# 📈 Learning Progress
-
-This repository represents my progression from beginner-level Python programming to building larger, modular applications with persistent data storage and structured project organization.
-
-Each project builds upon concepts learned in previous projects, gradually introducing more advanced programming techniques and better software design practices.
-
----
-
 # 🚀 Future Goals
 
 The next technologies and projects I plan to learn include:
@@ -148,19 +265,10 @@ The next technologies and projects I plan to learn include:
 - CSS
 - JavaScript
 - Flask
-- SQLite
-- MySQL
+- SQLite & MySQL
 - REST APIs
 - Full-Stack Web Development
-- Authentication Systems
-- Database Integration
 - AI & Machine Learning Projects
-
----
-
-# 🤝 Contributions
-
-This repository is maintained as part of my learning journey. Suggestions, feedback, and improvements are always welcome.
 
 ---
 
