@@ -1,0 +1,186 @@
+{
+    "AC1001": {
+        "name": "Alice",
+        "pin": "1234",
+        "balance": 500,
+        "created_on": "01-07-2026",
+        "attempts": 0,
+        "last_login": null,
+        "is_locked": false,
+        "history": [
+            {
+                "transaction_id": "TXN000001",
+                "type": "Credit",
+                "reason": "Initial Deposit",
+                "amount": 500,
+                "balance_after": 500,
+                "time": "01-07-2026 14:25:53"
+            }
+        ]
+    },
+    "AC1002": {
+        "name": "Bob",
+        "pin": "5678",
+        "balance": 2500,
+        "created_on": "01-07-2026",
+        "attempts": 0,
+        "last_login": null,
+        "is_locked": false,
+        "history": [
+            {
+                "transaction_id": "TXN000002",
+                "type": "Credit",
+                "reason": "Initial Deposit",
+                "amount": 2500,
+                "balance_after": 2500,
+                "time": "01-07-2026 14:26:09"
+            }
+        ]
+    },
+    "AC1003": {
+        "name": "Charlie",
+        "pin": "9876",
+        "balance": 10000,
+        "created_on": "01-07-2026",
+        "attempts": 0,
+        "last_login": null,
+        "is_locked": false,
+        "history": [
+            {
+                "transaction_id": "TXN000003",
+                "type": "Credit",
+                "reason": "Initial Deposit",
+                "amount": 10000,
+                "balance_after": 10000,
+                "time": "01-07-2026 14:26:32"
+            }
+        ]
+    },
+    "AC1004": {
+        "name": "Jethalal Champaklal Gada",
+        "pin": "1596",
+        "balance": 510000,
+        "created_on": "01-07-2026",
+        "attempts": 0,
+        "last_login": "01-07-2026 15:37:46",
+        "is_locked": false,
+        "history": [
+            {
+                "transaction_id": "TXN000004",
+                "type": "Credit",
+                "reason": "Initial Deposit",
+                "amount": 51000,
+                "balance_after": 510000,
+                "time": "01-07-2026 14:28:22"
+            }
+        ]
+    },
+    "AC1005": {
+        "name": "Mukesh Ambani",
+        "pin": "7410",
+        "balance": 102000,
+        "created_on": "01-07-2026",
+        "attempts": 0,
+        "last_login": "01-07-2026 15:34:51",
+        "is_locked": false,
+        "history": [
+            {
+                "transaction_id": "TXN000005",
+                "type": "Credit",
+                "reason": "Initial Deposit",
+                "amount": 100000,
+                "balance_after": 100000,
+                "time": "01-07-2026 15:01:58"
+            },
+            {
+                "transaction_id": "TXN000012",
+                "type": "Credit",
+                "reason": "Transfer from AC1008",
+                "amount": 2000,
+                "balance_after": 102000,
+                "time": "02-07-2026 13:52:55"
+            }
+        ]
+    },
+    "AC1006": {
+        "name": "Anant Ambani",
+        "pin": "8520",
+        "balance": 5700000,
+        "created_on": "01-07-2026",
+        "attempts": 0,
+        "last_login": "01-07-2026 15:36:47",
+        "is_locked": false,
+        "history": [
+            {
+                "transaction_id": "TXN000006",
+                "type": "Credit",
+                "reason": "Initial Deposit",
+                "amount": 700000,
+                "balance_after": 700000,
+                "time": "01-07-2026 15:02:26"
+            },
+            {
+                "transaction_id": "TXN000008",
+                "type": "Credit",
+                "reason": "Cash Deposit",
+                "amount": 5000000,
+                "balance_after": 5700000,
+                "time": "01-07-2026 15:36:59"
+            }
+        ]
+    },
+    "AC1007": {
+        "name": "Akash Ambani",
+        "pin": "9630",
+        "balance": 780000,
+        "created_on": "01-07-2026",
+        "attempts": 0,
+        "last_login": null,
+        "is_locked": false,
+        "history": [
+            {
+                "transaction_id": "TXN000007",
+                "type": "Credit",
+                "reason": "Initial Deposit",
+                "amount": 780000,
+                "balance_after": 780000,
+                "time": "01-07-2026 15:03:00"
+            }
+        ]
+    },
+    "AC1008": {
+        "name": "Hamza ali mazari",
+        "pin": "1397",
+        "balance": 13000,
+        "created_on": "02-07-2026",
+        "attempts": 0,
+        "last_login": "02-07-2026 13:50:40",
+        "is_locked": false,
+        "history": [
+            {
+                "transaction_id": "TXN000009",
+                "type": "Credit",
+                "reason": "Initial Deposit",
+                "amount": 10000,
+                "balance_after": 10000,
+                "time": "02-07-2026 13:49:42"
+            },
+            {
+                "transaction_id": "TXN000010",
+                "type": "Credit",
+                "reason": "Cash Deposit",
+                "amount": 5000,
+                "balance_after": 15000,
+                "time": "02-07-2026 13:51:44"
+            },
+            {
+                "transaction_id": "TXN000011",
+                "type": "Debit",
+                "reason": "Transfer to AC1005",
+                "amount": 2000,
+                "balance_after": 13000,
+                "time": "02-07-2026 13:52:55"
+            }
+        ]
+    }
+}
